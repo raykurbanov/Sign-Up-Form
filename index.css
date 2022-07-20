@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(46, 46, 156);
+  margin: 0 auto;
+}
+
+.container {
+  width: 400px;
+  height: 675px;
+  background-color: rgb(245, 244, 244);
+  margin: 75px auto 0;
+  border-radius: 5px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  padding: 35px 0 10px 0;
+  font-weight: 300;
+  color: rgb(16, 150, 227);
+}
+
+h3 {
+  font-weight: 200;
+}
+.box {
+  text-align: center;
+  width: 90%;
+  text-align: left;
+  margin: 20px auto;
+}
+
+input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid rgb(200, 188, 188);
+  margin-top: 5px;
+  width: 100%;
+  background-color: white;
+}
+label {
+  display: block;
+  font-size: 20px;
+  color: #666;
+}
+.first-name:first-child {
+  margin: 25px auto 0;
+}
+
+.btn {
+  text-align: center;
+  background-color: none;
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  height: 30px;
+  width: 90%;
+  margin-top: 15px;
+  background-color: rgba(30, 164, 50, 0.75);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#sign-in {
+  margin-top: 15px;
+  color: rgb(226, 226, 226);
+}
+
+a {
+  color: rgb(53, 149, 228);
+  text-decoration: none;
+}
